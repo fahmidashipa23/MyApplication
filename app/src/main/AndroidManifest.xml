@@ -10,20 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".ActivityLifeCycle">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-
+        <activity android:name=".ActivityLifeCycle" />
         <activity android:name=".OptionMenuIntegrate" />
-        <activity android:name=".OptionMenuWithImage">
+        <activity android:name=".OptionMenuWithImage" />
+        <activity android:name=".BackPress" />
+        <activity android:name=".AlertDialogTest" />
+        <activity android:name=".TimePickerTest" />
+        <activity android:name=".DatePickerTest"></activity>
+        <activity android:name=".SeekBarT">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".circular_progressbar" />
+        <activity android:name=".text_spinner">
 
         </activity>
-        <activity android:name=".BackPress">
-
+        <activity android:name=".ListViewTest">
 
         </activity>
     </application>
