@@ -16,20 +16,20 @@
         <activity android:name=".BackPress" />
         <activity android:name=".AlertDialogTest" />
         <activity android:name=".TimePickerTest" />
-        <activity android:name=".DatePickerTest"></activity>
-        <activity android:name=".SeekBarT">
+        <activity android:name=".DatePickerTest" />
+        <activity android:name=".SeekBarT"></activity>
+        <activity android:name=".circular_progressbar" />
+        <activity android:name=".text_spinner" />
+        <activity android:name=".ListViewTest" />
+        <activity android:name=".CustomListView">
+
+        </activity>
+        <activity android:name=".AnimationTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".circular_progressbar" />
-        <activity android:name=".text_spinner">
-
-        </activity>
-        <activity android:name=".ListViewTest">
-
         </activity>
     </application>
 
