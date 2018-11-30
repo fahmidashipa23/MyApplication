@@ -17,19 +17,21 @@
         <activity android:name=".AlertDialogTest" />
         <activity android:name=".TimePickerTest" />
         <activity android:name=".DatePickerTest" />
-        <activity android:name=".SeekBarT"></activity>
+        <activity android:name=".SeekBarT" />
         <activity android:name=".circular_progressbar" />
         <activity android:name=".text_spinner" />
         <activity android:name=".ListViewTest" />
-        <activity android:name=".CustomListView">
+        <activity android:name=".CustomListView"></activity>
+        <activity android:name=".AnimationTest">
 
         </activity>
-        <activity android:name=".AnimationTest">
+        <activity android:name=".notification_test">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
